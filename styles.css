@@ -7,7 +7,10 @@
     margin: 0;
 }
 :root{
-    --primary-color: #047aed
+    --primary-color: #047aed;
+    --secondary-color: #1c3fa8;
+    --dark-color: #002240;
+    --light-color: #f4f4f4;
 }
 body{
     font-family: 'lato', sans-serif;
@@ -155,9 +158,42 @@ img{
     grid-row: 1 / span 2;
  }
 
+
+ /* Colud */
+
+ .cloud .grid{
+    grid-template-columns: 4fr, 3fr;
+ }
+
+ /* lang */
+
+ .languages .flex{
+    flex-wrap: wrap;
+ }
+ .languages .card{
+    text-align: center;
+    margin: 18px 10px 40px;
+    transition: transform 0.2s ease-in;
+ }
+
+ .languages .card h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+ }
+
+ .languages .card:hover{
+    transform: translateY(-15px);
+ }
+
+ /* footer */
+ .footer .social a{
+    margin: 0 10px;
+ }
  /* Tablets and under */
  @media(max-width: 768px){
-    .grid, .showcase .grid, .stats .grid {
+    .grid, .showcase .grid, .stats .grid, 
+    .cli .grid,
+    .cloud .grid {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
         
@@ -174,6 +210,10 @@ img{
         justify-self: center;
         margin: auto;
     }
+    .cli .grid >*:first-child{
+    grid-column: 1 ;
+    grid-row: 1 ;
+ }
  }
  /* Mobile */
  @media(max-width: 500px){
