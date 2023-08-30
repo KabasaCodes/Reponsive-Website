@@ -294,9 +294,10 @@ code, pre{
     height: 110px;
    }
 
-   .showcase-text p{
-    text-align: center;
-   }
+   .showcase-text{
+        text-align: center;
+        margin-top: 40px;
+    }
 
    .showcase-form{
         justify-self: center;
