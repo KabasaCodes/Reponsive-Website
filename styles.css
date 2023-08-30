@@ -243,11 +243,11 @@ code, pre{
 
 /* Animation */
 
-@keyframes slideInFromLeft{
+/* @keyframes slideInFromLeft{
     0% {
         transform: ;
     }
-}
+} */
  /* footer */
  .footer .social a{
     margin: 0 10px;
@@ -293,6 +293,15 @@ code, pre{
    .navbar{
     height: 110px;
    }
+
+   .showcase-text p{
+    text-align: center;
+   }
+
+   .showcase-form{
+        justify-self: center;
+        margin: auto;
+    }
    .navbar .flex{
     flex-direction: column;
    }
