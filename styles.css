@@ -306,6 +306,9 @@ code, pre{
    .navbar .flex{
     flex-direction: column;
    }
+   .showcase-text p{
+    flex-direction: column;
+   }
    .navbar ul{
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.1);
