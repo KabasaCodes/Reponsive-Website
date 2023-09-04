@@ -294,6 +294,10 @@ code, pre{
     height: 110px;
    }
 
+   body{
+    padding: 0 15px;
+   }
+
    .showcase-text{
         text-align: center;
         margin-top: 40px;
