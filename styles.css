@@ -289,20 +289,16 @@ code, pre{
  }
  }
  /* Mobile */
- @media(max-width: 480px){
+ @media(max-width: 390px){
    .navbar{
     height: 110px;
    }
 
-   /* body{
-    padding: 0 15px;
-   } */
-
-   .showcase-text{
-        text-align: center;
-        margin-top: 40px;
+    .grid .showcase-text p{
+     padding: 0 20px;
+     text-align: center;
     }
-
+ 
    .showcase-form{
         justify-self: center;
         margin: auto;
@@ -310,9 +306,18 @@ code, pre{
    .navbar .flex{
     flex-direction: column;
    }
-   .showcase-text p{
+   .inner_div  p{
+    text-align: center;
+    
+   }
+   
+   .showcase-text {
     flex-direction: column;
    }
+
+    .feature-head img, .feature-sub-head img,.docs-head img{
+        justify-self: center;
+    }
    .navbar ul{
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.1);
